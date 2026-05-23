@@ -1,0 +1,56 @@
+---
+define:
+  type: rc/version
+  product: ASAB Maestro
+  version: release-candidate
+
+versions:
+  # ASAB Maestro Library
+  library asab-maestro-library: v2
+
+  # SeaCat Auth
+  seacat-auth: v26.15-alpha5
+  webapp seacat_auth_webui: v26.20-dev.11 # Frantas testing tag - dont override
+
+  # ASAB
+  asab-config: v25.12.06
+  asab-discovery: v25.15.08
+  asab-governator: v26.21-alpha3
+  asab-iris: v26.21-alpha
+  asab-library: v26.21-alpha3
+  asab-pyppeteer: v25.47.02  # kazoo + asab v25.47.04
+  asab-remote-control: v26.21-alpha
+  bs-query: v26.09-beta4  # kazoo + asab v26.12.03
+
+  # WebUI
+  webapp lmio_webui: v26.20-dev.11 # Frantas testing tag - dont override
+  webapp asab_config_webui: v26.20-dev.11 # Frantas testing tag - dont override
+  webapp asab_library_webui: v26.20-dev.11 # Frantas testing tag - dont override
+  webapp asab_maestro_webui: v26.20-dev.11 # Frantas testing tag - dont override
+  webapp asab_tools_webui: v26.20-dev.11 # Frantas testing tag - dont override
+  webapp bs_query_webui: v26.20-dev.11 # Frantas testing tag - dont override
+  webapp lmio_analysis_webui: v26.20-dev.11 # Frantas testing tag - dont override
+  webapp lmio_lookup_webui: v26.20-dev.11 # Frantas testing tag - dont override
+  webapp lmio_observability_webui: v26.20-dev.11 # Frantas testing tag - dont override
+  webapp lmio_alert_management_webui: v26.20-dev.11 # Frantas testing tag - dont override
+  webapp lmio_parser_builder_webui: v26.20-dev.11 # Frantas testing tag - dont override
+  webapp seacat_admin_webui: v26.20-dev.11 # Frantas testing tag - dont override
+  webapp seacat_account_webui: v26.20-dev.11 # Frantas testing tag - dont override
+  webapp lmio_logsources_webui: v26.20-dev.11 # Frantas testing tag - dont override
+  webapp lmio_detection_webui: v26.20-dev.11 # Frantas testing tag - dont override
+
+  # External dependencies 
+  acmesh: 3.0.7
+  burrow: v24.16
+  elasticsearch: '7.17.28'
+  grafana: '12.1.0'
+  influxdb: '2.7.11'
+  jupyter: lab-4.0.9
+  kafdrop: '4.2.0'
+  kafka: '7.9.0'
+  kibana: '7.17.28'
+  mongo: '8.0.20'  # from 7.0.28, 8.0.20 is not vulnerable to CVE-2025-14847
+  nginx: '1.25.2'
+  telegraf: '1.36.1'
+  zookeeper: '3.9.5'
+  zoonavigator: '1.1.2'
